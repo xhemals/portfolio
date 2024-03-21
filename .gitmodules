@@ -1,0 +1,3 @@
+[submodule "src/submodule/TFL-Journey-Planner"]
+	path = src/submodule/TFL-Journey-Planner
+	url = https://github.com/xhemals/TFL-Journey-Planner.git
