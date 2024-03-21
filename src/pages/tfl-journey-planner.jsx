@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 import App from "@submodule/TFL-Journey-Planner/src/app/App";
 
 export default function TflJourneyPlanner() {
@@ -54,6 +55,7 @@ export default function TflJourneyPlanner() {
 					content="https://xhem.al/tfl-journey-planner/favicon.ico"
 				/>
 			</Head>
+			<Analytics />
 			<App />
 		</>
 	);
