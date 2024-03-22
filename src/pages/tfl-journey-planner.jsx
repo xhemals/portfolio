@@ -28,7 +28,7 @@ export default function TflJourneyPlanner() {
 				{/* Canonical */}
 				<link rel="canonical" href="https://xhem.al/tfl-journey-planner" />
 				{/* Content Language */}
-				<meta http-equiv="content-language" content="en-gb" />
+				<meta httpEquiv="content-language" content="en-gb" />
 				{/* Open Graph */}
 				<meta property="og:type" content="website" />
 				<meta property="og:site_name" content="TFL Journey Planner" />

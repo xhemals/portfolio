@@ -15,6 +15,8 @@ export default function RootLayout({ children }) {
 		<>
 			<html lang="en">
 				<head>
+					<link rel="icon" href="/favicon.ico" />
+					<meta httpEquiv="content-language" content="en-gb" />
 					<link rel="canonical" href="https://xhem.al" />
 					<meta name="robots" content="index, follow" />
 					<meta name="keywords" content="Jamie Speller, xhemal, xhemals" />
@@ -26,6 +28,21 @@ export default function RootLayout({ children }) {
 					<meta name="twitter:title" content="xhemals | Jamie Speller" />
 					<meta name="twitter:description" content="xhemals | Jamie Speller" />
 					<meta name="twitter:image" content="/xhemals-logo.png" />
+					<meta name="theme-color" content="#4428fc" />
+					<meta
+						name="viewport"
+						content="viewport-fit=cover, width=device-width, initial-scale=1.0"
+					/>
+					<link rel="preconnect" href="https://fonts.googleapis.com" />
+					<link
+						rel="preconnect"
+						href="https://fonts.gstatic.com"
+						crossOrigin="true"
+					/>
+					<link
+						href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+						rel="stylesheet"
+					/>
 				</head>
 				<body className={inter.className}>
 					{children}

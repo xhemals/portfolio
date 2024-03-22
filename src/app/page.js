@@ -5,7 +5,7 @@ import SocialIcon from "./components/social-icon";
 
 export default function Home() {
 	return (
-		<main className="flex min-h-screen flex-col items-center p-2 main">
+		<main className="main">
 			<Image
 				src="/xhemals-logo.png"
 				width={500}
