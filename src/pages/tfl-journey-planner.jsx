@@ -57,6 +57,13 @@ export default function TflJourneyPlanner() {
 			</Head>
 			<Analytics />
 			<App />
+			<footer>
+				<p>
+					Powered by TfL Open Data | Contains OS data © Crown copyright and
+					database rights 2016 and Geomni UK Map data © and database rights
+					[2019]
+				</p>
+			</footer>
 		</>
 	);
 }
